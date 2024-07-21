@@ -1,2 +1,2 @@
-# flaskapp
-Web app using flask
+# Career Website
+Website design using flask and replit
