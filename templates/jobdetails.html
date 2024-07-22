@@ -1,0 +1,21 @@
+<div>
+  {% for job in jobs %}
+    <div style="margin-bottom: 16px; padding-bottom: 8px;" class="border-bottom row">
+      <div class="col-10">
+        <h5 style="color: rgb(120, 120, 120); margin-bottom: 2px;">
+          <b>{{ job['title'] }}</b>
+        </h5>
+        <div>
+          <b>Location:</b> {{ job['location'] }}
+        </div>
+        <div>
+          <b>Salary:</b> {{ job['salary'] }}
+        </div>
+      </div>
+      <div class="col-2">
+        <button type="button" class="btn btn-outline-primary">Apply</button>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
